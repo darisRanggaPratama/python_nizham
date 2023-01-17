@@ -9,7 +9,7 @@ t.pencolor('red')
 t.speed(1)
 # fd: forward = maju
 t.fd(100)
-t.lt(90)
+t.lt(80)
 t.fd(200)
 t.rt(90)
 t.fd(100)
