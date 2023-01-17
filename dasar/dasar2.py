@@ -10,7 +10,7 @@ t.pencolor('#a569bd')
 # Kotak
 for i in range(4):
     t.pencolor('#e59866')
-    t.fd(120)
+    t.fd(100)
     t.lt(90)
 
 
@@ -23,6 +23,6 @@ for i in range(3):
 
 # Lingkaran
 t.pencolor('#f1948a')
-t.circle(50)
+t.circle(100)
 
 turtle.exitonclick()
