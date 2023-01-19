@@ -4,10 +4,11 @@ t = turtle.Turtle()
 # (lebar, tinggi, x, y)
 turtle.setup(500, 500, 1030, 300)
 t.speed(0)
-t.screen.bgcolor('#273746')
-t.pencolor('#a569bd')
+t.screen.bgcolor('black')
+t.pen(fillcolor='purple', pencolor='purple')
 
-x = 30
+x = 11
+t.begin_fill()
 for i in range(x):
     h = t.heading()
     # (radius, panjang)
@@ -16,6 +17,8 @@ for i in range(x):
     t.circle(100, 60)
     t.setheading(h)
     t.lt(360/x)
+    
+t.end_fill()
 
 
 # hilangkan panah
@@ -27,14 +30,21 @@ t.goto(0, -30)
 t.showturtle()
 # Mulai garis
 t.pendown()
+t.pen(fillcolor='orange', pencolor='orange')
+t.begin_fill()
 t.circle(30)
+t.end_fill()
 
 t.hideturtle()
 t.penup()
 t.goto(0, -20)
 t.showturtle()
 t.pendown()
+t.pen(fillcolor='blue', pencolor='blue')
+t.begin_fill()
 t.circle(20)
+t.end_fill()
+t.hideturtle()
 
 # menit 6
 
