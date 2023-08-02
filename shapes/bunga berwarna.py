@@ -3,6 +3,7 @@ import turtle
 t = turtle.Turtle()
 # (lebar, tinggi, x, y)
 turtle.setup(500, 500, 1030, 300)
+# Kecepatan
 t.speed(0)
 t.screen.bgcolor('black')
 t.pen(fillcolor='purple', pencolor='purple')
