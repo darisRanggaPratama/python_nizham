@@ -9,7 +9,7 @@ t = turtle.Turtle()
 for x in range(4):
     t.fd(50)
     t.rt(90)
-    
+
 t.penup()
 t.fd(100)
 t.pendown()
@@ -38,5 +38,5 @@ t.dot(25)
 t.lt(15)
 t.fd(65)
 t.dot(35)
-    
+
 turtle.exitonclick()
