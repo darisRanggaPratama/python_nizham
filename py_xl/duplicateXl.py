@@ -31,7 +31,8 @@ if __name__ == "__main__":
 
     duplicate_cells = check_duplicate_cells_in_workbook(file_path)
     if duplicate_cells:
-        print("\nDuplicate cell values found:")
+        print("\nDuplicate cell values found ;")
+        print("\nValue ; Cell ;")
         for value, addresses in duplicate_cells.items():
             print(f"Value: {value} ; Cell: {', '.join(addresses)}")
     else:

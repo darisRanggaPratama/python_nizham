@@ -35,8 +35,11 @@ if __name__ == "__main__":
     duplicate_cells_info = check_duplicate_cells_in_workbook(file_path)
     if duplicate_cells_info:
         print("Duplicate cell values found: ;")
+        print("\nSheet ; Value ; Cell ;")
         for value, info_list in duplicate_cells_info.items():
             for sheet_name, cell_address in info_list:
-                print(f"Sheet: {sheet_name} ; Value: {value} ; Cell: {cell_address}")
+                print(f" {sheet_name} ; {value} ; {cell_address} ;")
     else:
         print("No duplicate cell values found.")
+
+# THIS CODE IS WORK
