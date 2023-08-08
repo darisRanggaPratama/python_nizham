@@ -30,7 +30,7 @@ def check_duplicate_cells_in_workbook(file_path):
     return duplicate_cell_values_info
 
 if __name__ == "__main__":
-    file_path = "blank_cell.xlsx"  # Update with the correct file path
+    file_path = "GAJI_HADIR_JUL23.xlsx"  # Update with the correct file path
 
     duplicate_cells_info = check_duplicate_cells_in_workbook(file_path)
     if duplicate_cells_info:

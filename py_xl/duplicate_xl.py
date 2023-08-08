@@ -26,14 +26,15 @@ def check_duplicate_strings_in_column(file_path, sheet_name, column_index):
 
 if __name__ == "__main__":
     file_path = "blank_cell.xlsx"  # Update with the correct file path
-    sheet_name = "empty"  # Replace with the name of the sheet containing the data
-    column_index = "G"  # Replace with the column index (e.g., "A" for the first column)
+    sheet_name = "DATA"  # Replace with the name of the sheet containing the data
+    column_index = "F"  # Replace with the column index (e.g., "A" for the first column)
 
     duplicates = check_duplicate_strings_in_column(file_path, sheet_name, column_index)
     if duplicates:
         print("Duplicate values found in column:")
         for value in duplicates:
             print(value)
+            
     else:
         print("No duplicate values found in column.")
         
