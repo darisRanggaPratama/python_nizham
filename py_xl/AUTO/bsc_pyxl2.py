@@ -18,4 +18,7 @@ val.value
 print(val.value)
 
 # Ambil baris, kolom & nilai dari cell
-print(f'baris: {val.row} kolom: {val.column} nilai:  {val.value} huruf-kolom: {utils.get_column_letter(val.column)}')
+print(f'huruf-kolom: {utils.get_column_letter(val.column)} baris: {val.row} kolom: {val.column} \nCell: {val.coordinate} nilai:  {val.value}')
+
+# Ambil nilai
+print('Isi B1: ', sheet['B1'].value)
