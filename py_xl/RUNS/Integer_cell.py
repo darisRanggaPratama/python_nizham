@@ -2,7 +2,7 @@ from openpyxl import *
 from openpyxl.utils import *
 
 # Isi Nama File
-path = input('\nDECIMAL Value\nFile Name: ')
+path = input('\nInteger Value\nFile Name: ')
 
 # Akses file excel
 wbook = load_workbook(path)
@@ -24,15 +24,17 @@ colm = input('Get 1 Column: ')
 col = column_index_from_string(colm)
 range_col = list(sheet.columns)[col-1]
 
-print('\nDECIMAL VALUE ;\n\nNo ; Cell ; Value ;')
+print('\nINTEGER VALUE ;\n\nNo ; Cell ; Value ; IsInteger ; ')
 # Baca nilai di kolom
 x = 0
 for cell in range_col:
-    # Cek decimal value 1 per 1
-    if isinstance(cell.value, float):
-        x += 1
-        # Bila Decimal tampilkan
-        print(f' {x} ; {cell.coordinate} ; {cell.value} ;')
+    # Cek integer value 1 per 1
+    if isinstance(cell.value, int):
+        isInteger = cell.value > 0
+        if isInteger is True:
+            x += 1
+            # Bila integer tampilkan
+            print(f' {x} ; {cell.coordinate} ; {cell.value} ; {isInteger} ;')
 
 
 print('\n===End Searching===;')
