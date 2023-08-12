@@ -1,7 +1,7 @@
 import openpyxl
 
 # Buka file Excel
-file_path = 'blank_cell.xlsx'  # Ganti dengan path file Excel Anda
+file_path = 'sample.xlsx'  # Ganti dengan path file Excel Anda
 workbook = openpyxl.load_workbook(file_path)
 
 # Loop melalui semua sheet di workbook

@@ -1,4 +1,5 @@
 from openpyxl import *
+from openpyxl import utils
 
 path = 'blank_cell.xlsx'
 wb = load_workbook(path)

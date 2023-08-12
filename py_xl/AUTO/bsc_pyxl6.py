@@ -13,7 +13,8 @@ range_col = list(sh_data.columns)[1]
 print('\nCell | Value')
 # Baca nilai di kolom
 for cell in range_col:
-    print(f'  {cell.coordinate}   {cell.value}')
+    if cell.value is None:
+        print(f'  {cell.coordinate}   {cell.value}')
 
 
 # Akses sheet active
