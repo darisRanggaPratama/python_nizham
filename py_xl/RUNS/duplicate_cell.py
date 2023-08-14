@@ -54,7 +54,7 @@ file_path = input('\nDUPLICATE VALUE\nFile Name: ')
 duplicate_cell_info = duplicate(file_path)
 
 if duplicate_cell_info:
-    print('\nDUPLICATE CELL ;\n\nNo ; Values ; Cell ;')
+    print('\nDUPLICATE CELL ;\n\nNo ; Cell ; Values ;')
     x = 0
     # Tampilkan nilai duplikat
     for value, info_list in duplicate_cell_info.items():
