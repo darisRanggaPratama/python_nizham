@@ -27,7 +27,7 @@ print('\nNEGATIVE CELLS ;\n\nNo ; Cell ; Value ; IsNegative')
 # Baca nilai di kolom
 x = 0
 for cell in range_col:
-    # Cek negative value 1 per 1
+    # Cek negative value di cell 1 per 1
     if isinstance(cell.value, (int, float)):
         negative = cell.value < 0
         if negative is True:
