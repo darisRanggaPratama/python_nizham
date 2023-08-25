@@ -7,7 +7,7 @@ t.speed(0)
 t.screen.bgcolor('#273746')
 t.pencolor('#a569bd')
 
-x = 30
+x = 9000
 for i in range(x):
     h = t.heading()
     # (radius, panjang)

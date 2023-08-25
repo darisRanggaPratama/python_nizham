@@ -28,7 +28,7 @@ print('\nDECIMAL VALUE ;\n\nNo ; Cell ; Value ;')
 # Baca nilai di kolom
 x = 0
 for cell in range_col:
-    # Cek decimal value 1 per 1
+    # Cek decimal value di cell 1 per 1
     if isinstance(cell.value, float):
         x += 1
         # Bila Decimal tampilkan
