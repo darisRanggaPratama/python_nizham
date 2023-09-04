@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 H
@@ -43,3 +44,7 @@ H
 py_xl/RUNS/ws_decimal.py,6\5\65b4cc79d5ed20d357adcd2402b5e179a67fddba
 E
 py_xl/RUNS/ws_zero.py,7\c\7c75c8b630136b658becd96c1ed5e2e2bc920734
+=======
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+>>>>>>> Stashed changes
