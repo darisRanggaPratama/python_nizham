@@ -28,7 +28,7 @@ for start in range(end):
     range_col = list(sheet.columns)[start]
     for cell in range_col:
         if isinstance(cell.value, (int, float)):
-            # Cek panjang cell value
+            # Cek nilai noll
             if -1 < cell.value < 1:
                 x += 1
                 # Bila ada: 0 tampilkan
